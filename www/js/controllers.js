@@ -15,7 +15,7 @@ spiredeck.controller('AppCtrl', function($scope, $cordovaPush, ionPlatform, $htt
 
         if (ionic.Platform.isAndroid()) {
             config = {
-                "senderID": gcm_id // REPLACE THIS WITH YOURS FROM GCM CONSOLE - also in the project URL like: https://console.developers.google.com/project/434205989073
+                "senderID": gcm_id
             };
         }
         else if (ionic.Platform.isIOS()) {
